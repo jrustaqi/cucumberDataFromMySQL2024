@@ -1,0 +1,333 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3758175100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddCustomerStepDefination.initMethod()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User should be able to add new customer information from MySQL database",
+        "description": "",
+        "id": "adding-new-customer-functionality-validation-with-driving-the-data-from-mysql-database;user-should-be-able-to-add-new-customer-information-from-mysql-database",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2895365400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the CodeFios URL page",
+            "match": {
+              "location": "AddCustomerStepDefination.user_is_on_the_CodeFios_URL_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3501668800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters the username as \"username\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 29
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_username_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3120193200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the password as \"password\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 29
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_password_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21018332300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User hits on the Sighin button",
+            "match": {
+              "location": "AddCustomerStepDefination.user_hits_on_the_Sighin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 244831300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should land on dashboard page of CodeFios",
+            "match": {
+              "location": "AddCustomerStepDefination.user_should_land_on_dashboard_page_of_CodeFios()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3061356700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User hits on the Customer menu",
+            "match": {
+              "location": "AddCustomerStepDefination.user_hits_on_the_Customer_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5998615500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User hits on the Add Customer menu",
+            "match": {
+              "location": "AddCustomerStepDefination.user_hits_on_the_Add_Customer_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162525900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on Add New Customer page of CodeFios",
+            "match": {
+              "location": "AddCustomerStepDefination.user_should_land_on_Add_New_Customer_page_of_CodeFios()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125937800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters the fullName as \"fullname\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "fullname",
+                  "offset": 29
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_fullName_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168933300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters the compny as \"company\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "company",
+                  "offset": 27
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_compny_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107145400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters the email as \"email\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "email",
+                  "offset": 26
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_email_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92461800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters the phone as \"phone\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "phone",
+                  "offset": 26
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_phone_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91122300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters the address as \"address\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "address",
+                  "offset": 28
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_address_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87753500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters the city as \"city\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "city",
+                  "offset": 25
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_city_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92841600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters the zipCode as \"zipCode\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "zipCode",
+                  "offset": 28
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_zipCode_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140211800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters the country as \"country\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "country",
+                  "offset": 28
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_country_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2141027500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters the group as \"group\" from DB",
+            "match": {
+              "arguments": [
+                {
+                  "val": "group",
+                  "offset": 26
+                }
+              ],
+              "location": "AddCustomerStepDefination.user_enters_the_group_as_from_DB(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78996265300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User hits on the save button",
+            "match": {
+              "location": "AddCustomerStepDefination.user_hits_on_the_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260833100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User should see the inserted customer information",
+            "match": {
+              "location": "AddCustomerStepDefination.user_should_see_the_inserted_customer_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Regression1"
+          }
+        ]
+      }
+    ],
+    "name": "Adding new customer functionality validation with driving the data from MySQL database",
+    "description": "",
+    "id": "adding-new-customer-functionality-validation-with-driving-the-data-from-mysql-database",
+    "keyword": "Feature",
+    "uri": "features/AddCustomer.feature"
+  }
+]
